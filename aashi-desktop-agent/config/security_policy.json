@@ -1,0 +1,24 @@
+{
+	"safe": [
+		"office.create_excel",
+		"office.create_word",
+		"vision.capture_screen",
+		"web.search",
+		"media.youtube"
+	],
+	"sensitive": [
+		"filesystem.write",
+		"filesystem.move",
+		"filesystem.delete",
+		"app.launch",
+		"terminal.run",
+		"communication.send_email",
+		"communication.send_whatsapp",
+		"os.volume",
+		"os.brightness"
+	],
+	"critical": [
+		"credential.read",
+		"security.disable"
+	]
+}
