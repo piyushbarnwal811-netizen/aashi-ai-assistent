@@ -1,0 +1,13 @@
+{
+	"name": "aashi-tauri-shell",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "tauri dev",
+		"build": "tauri build",
+		"check": "tauri info"
+	},
+	"devDependencies": {
+		"@tauri-apps/cli": "^2.0.0"
+	}
+}
